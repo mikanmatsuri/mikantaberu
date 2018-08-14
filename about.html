@@ -3,44 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <style>
+        .border{
+            padding: 5px;
+            border-collapse: collapse;
+            border: solid 2px forestgreen;
+        }
+
+        .border2{
+            padding: 5px;
+            border: solid 1px forestgreen;
+        }
+
+        .hajime{
+            padding: 5px;
+            background-color: greenyellow;
+            border: solid 1px forestgreen;
+        }
+
+        .nibanme {
+            padding: 5px;
+            background-color: green;
+            border: solid 1px forestgreen;
+            color: white;
+        }
+
+    </style>
 </head>
+
 <body>
+    <h1>パンダのマント</h1>
+    <a href="index.html">トップページ</a>
 
-<h1>パンダのマント</h1>
-<a href="index.html">トップページ</a>
-
-<table border="1" cellpadding="2" cellspacing="1">
-    <tr>
-        <td rowspan="2">ID</td>
-        <td colspan="2">Full name</td>
-        <td rowspan="2">Sex</td>
-        <td rowspan="2">Age</td>
-    </tr>
-    <tr>
-        <td>Name</td>
-        <td>Surname</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Kupriyanov</td>
-        <td>Alex</td>
-        <td>M</td>
-        <td>28</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Fujita</td>
-        <td>Natsumi</td>
-        <td>F</td>
-        <td rowspan="2">18</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Taro</td>
-        <td>Tanaka</td>
-        <td>M</td>
-     </tr>
-</table>
+    <table class = "border">
+        <tr>
+            <td class ="nibanme" rowspan="2">ID</td>
+            <th class ="hajime" colspan="2">Full name</th>
+            <th class ="hajime" rowspan="2">Sex</th>
+            <th class ="hajime" rowspan="2">Age</th>
+        </tr>
+        <tr>
+            <th class ="hajime">Name</th>
+            <th class ="hajime">Surname</th>
+        </tr>
+        <tr>
+            <td class ="nibanme">1</td>
+            <td class = "border2">Kupriyanov</td>
+            <td class = "border2">Alex</td>
+            <td class = "border2">M</td>
+            <td class = "border2">28</td>
+        </tr>
+        <tr>
+            <td class ="nibanme">2</td>
+            <td class = "border2">Fujita</td>
+            <td class = "border2">Natsumi</td>
+            <td class = "border2">F</td>
+            <td class = "border2" rowspan="2">18</td>
+        </tr>
+        <tr>
+            <td class ="nibanme">3</td>
+            <td class = "border2">Taro</td>
+            <td class = "border2">Tanaka</td>
+            <td class = "border2">M</td>
+        </tr>
+    </table>
 
 </body>
 </html>
