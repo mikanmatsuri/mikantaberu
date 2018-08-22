@@ -35,6 +35,52 @@
         .pandako-container {
             text-align: center;
         }
+
+
+        .logon-form{
+            padding:10px;
+            width:500px;
+            background-color: darkseagreen;
+            border: solid 2px yellow;
+        }
+
+        .login-input, .password-input{
+            margin:0 0 10px 0;
+            line-height:25px;
+            height:25px ;
+            width: 300px;
+            background-color: darkgreen;
+            border: solid 1px greenyellow;
+            color: white;
+
+        }
+
+        .sex-select, .sex-option {
+            margin:0 0 10px 0;
+            padding:5px;
+            line-height:25px;
+            height:35px ;
+            width: 302px;
+            background-color: darkgreen;
+            border: solid 1px greenyellow;
+            color: white;
+        }
+
+        .dream_wright{
+            line-height:25px;
+            padding:5px;
+            height: 300px;
+            width:400px;
+            margin:0 0 10px 0;
+            background-color: darkgreen;
+            border: solid 1px greenyellow;
+            color: white;
+        }
+
+        .dream_japanese{
+            padding:5px;
+        }
+
     </style>
 
 </head>
@@ -76,9 +122,46 @@
         </tr>
     </table>
 
-<div class="pandako-container">
-<img class="pandako-img" src="pandako.jpg" alt="pandako表示" />
-</div>
+    <div class="pandako-container">
+        <img class="pandako-img" src="pandako.jpg" alt="pandako表示" />
+    </div>
+
+    <form class="logon-form">
+        <br>
+        <div>
+            <input class="login-input" type="text"> ログイン
+        </div>
+        <div>
+            <input class="password-input" type="password"> パスワード
+        </div>
+        <div>
+            <select class="sex-select">
+                <option class="sex-option">M</option>
+                <option class="sex-option">W</option>
+            </select> 性別
+        </div>
+        <div class="dream_japanese">
+            夢を書いてください
+        </div>
+        <div>
+            <textarea class="dream_wright">
+            </textarea>
+        </div>
+        <div>
+            <input type="checkbox">　メールマガジンを送る？
+        </div>
+        <div>
+            パンダが好き？
+        </div>
+        <div>
+            <input type="radio">　好き
+            <input type="radio">　大好き
+            <input type="radio">　超好き
+        </div>
+        <div>
+            <button>送る</button>
+        </div>
+    </form>
 
 </body>
 </html>
