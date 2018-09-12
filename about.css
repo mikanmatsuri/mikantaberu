@@ -1,0 +1,107 @@
+.border{
+    padding: 5px;
+    border-collapse: collapse;
+    border: solid 2px forestgreen;
+}
+
+.border2{
+    padding: 5px;
+    border: solid 1px forestgreen;
+}
+
+.hajime{
+    padding: 5px;
+    background-color: greenyellow;
+    border: solid 1px forestgreen;
+}
+
+.nibanme {
+    padding: 5px;
+    background-color: green;
+    border: solid 1px forestgreen;
+    color: white;
+}
+
+.pandako-img {
+    width:380px;
+}
+.pandako-container {
+    text-align: center;
+}
+
+
+.logon-form{
+    padding:10px;
+    width:500px;
+    background-color: darkseagreen;
+    border: solid 2px yellow;
+}
+
+.login-input, .password-input{
+    margin:0 0 10px 0;
+    line-height:25px;
+    height:25px ;
+    width: 300px;
+    background-color: darkgreen;
+    border: solid 1px greenyellow;
+    color: white;
+
+}
+
+.sex-select, .sex-option {
+    margin:0 0 10px 0;
+    padding:5px;
+    line-height:25px;
+    height:35px ;
+    width: 302px;
+    background-color: darkgreen;
+    border: solid 1px greenyellow;
+    color: white;
+}
+
+.dream_wright{
+    line-height:25px;
+    padding:5px;
+    height: 300px;
+    width:400px;
+    margin:0 0 10px 0;
+    background-color: darkgreen;
+    border: solid 1px greenyellow;
+    color: white;
+}
+
+.dream_japanese{
+    padding:5px;
+}
+
+.panda_teikoku{
+    margin:10px;
+    padding: 5px;
+    height: 35px;
+    width:300px;
+    background-color: greenyellow;
+    border: solid 5px yellow;
+    color: white;
+    font-size:30px;
+}
+
+.panda_boss{
+    margin:10px;
+    padding: 5px;
+    height: 200px;
+    width:400px;
+    background-color: yellowgreen;
+    border: solid 5px yellow;
+    color: yellowgreen;
+    font-size:15px;
+    list-style: none;
+}
+
+.panda_kids{
+    float:left;
+    background-color: greenyellow;
+    border: solid 5px yellow;
+    color: green;
+    font-size:15px;
+
+}
