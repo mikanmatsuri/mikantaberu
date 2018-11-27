@@ -27,6 +27,7 @@
 }
 .pandako-container {
     text-align: center;
+    position:relative;
 }
 
 
@@ -94,7 +95,6 @@
     border: solid 5px yellow;
     color: yellowgreen;
     font-size:15px;
-    list-style: none;
 }
 
 .panda_kids{
@@ -103,5 +103,84 @@
     border: solid 5px yellow;
     color: green;
     font-size:15px;
+}
 
+p {
+    line-height:160%;
+    font-size:200%;
+}
+
+.t1 {
+    font-size:100%;
+}
+
+.t2 {
+    vertical-align:top;
+}
+p {
+    white-space: pre;
+}
+p {
+    letter-spacing: 20px;
+}
+p {
+    word-spacing: 20px;
+}
+
+.www {
+    vertical-align:top;
+}
+
+.table {
+    table-layout: fixed;
+    width: 200%;
+}
+
+body {
+    font-family: 'Meiryo UI','Meiryo','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',sans-serif;
+}
+
+span {
+    font-weight: bold;
+}
+span {
+    font-size: 200%;
+}
+.scrollable {
+    border: 1px dotted red;
+    max-height: 150px;
+    overflow: auto;
+    width: 300px;
+}
+div {
+    border: 1px dotted red;
+}
+.t1 {
+    min-width: 0;
+}
+
+
+
+
+ul {
+    list-style: square inside url(green_circle.png);
+}
+
+
+ul {
+    list-style-position: inside;
+}
+div {
+    padding: 10px 5px 10px 40px;
+}
+div {
+    border: solid thin red;
+}
+div {
+    border: dotted 5px rgba(255,0,0,0.5);
+}
+.pandako-img {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
 }
