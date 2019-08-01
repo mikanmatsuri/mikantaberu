@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="WELCOME%20TO%20HOME_files/style.css">
+    <link rel="stylesheet" type="text/css" href="WELCOME%20TO%20HOME_files/reset.css">
+    <meta charset="UTF-8">
+    <title>WELCOME TO HOME</title>
+    <script>
+
+        /*
+        var bookContents1 = "suika";
+        var bookContents2 = "kitune";
+        var bookContents3 = "italia";
+        var bookContents4 = "pantu";
+        var bookContents5 = "umi";
+
+        var bookColor1 = "akai";
+        var bookTitle1 = "tabemono";
+        var bookColor2 = "kiiroi";
+        var bookTitle2 = "doubutu";
+        var bookColor3 = "aoi";
+        var bookTitle3 = "bukken";
+        var bookColor4 = "akai";
+        var bookTitle4 = "fuku";
+        var bookColor5 = "aoi";
+        var bookTitle5 = "shashin";
+        */
+
+        var books = [
+          ["akai", "tabemono"],
+          ["kiiroi", "doubutu"],
+          ["aoi", "bukken"],
+          ["akai", "fuku"],
+          ["aoi", "shashin"]
+        ];
+
+        var booksContents = [
+            "suika", "kitune", "italia",  "pantu", "umi"
+        ];
+
+        var returnBook = "";
+
+        var searchColor = "aoi";
+        var searchTitle = "bukken";
+
+        for (var i=0; i<5; i++) {
+            if (books[i][1] == searchTitle ) {
+                if (books[i][0] == searchColor ) {
+                    returnBook = booksContents[i];
+                }
+            }
+        }
+
+        alert(returnBook);
+
+
+    </script>
+</head>
+
+<body>
+
+<script>
+    var nanchara1 = "natumi";
+    var nanchara2 = "sasha";
+    var i = 2;
+    alert(eval("nanchara" + i));
+
+
+
+    var nanchara = ["natumi", "sasha"];
+    alert(nanchara[1]);
+
+</script>
+
+</body>
+
+</html>
